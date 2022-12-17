@@ -87,3 +87,20 @@
       color: rgb(255, 109, 5);
       
 }
+
+
+.feature-container{
+      display: flex;
+      align-items: center;
+      gap: 96px;
+      padding-left: 165px;
+      padding-right: 165px;
+      padding-top: 100px;
+      
+      
+}
+.feature-container .image img{
+      width: 404px;
+      height: 270px;
+      border-radius: 7px;
+}
