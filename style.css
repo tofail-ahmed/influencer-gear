@@ -1,0 +1,54 @@
+
+
+.header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 30px;
+}
+.header-left{
+      font-weight: 700;
+      font-size: 24px;
+}
+.header-right{
+      display: flex;
+      gap:10px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+}
+.start-influencer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 120px;
+      padding-right: 160px;
+      gap: 140px;
+}
+.influencer--info{
+      width: 50%;
+     
+
+}
+.start-influencer img{
+      width: 440px;
+      height: 414px;
+      /* background-image: url(images/Circle-design.svg); */
+}
+
+.sponsors{
+      display: flex;
+      gap: 60px;
+      margin-top: 70px;
+      margin-left: 165px;
+      margin-right:165px ;
+      border-top:2px solid gray ;
+      border-bottom:2px solid gray ;
+}
+.sponsors img{
+      width: 84px;
+      height: 26px;
+}
