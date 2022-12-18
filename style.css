@@ -36,8 +36,10 @@
 .start-influencer img{
       width: 440px;
       height: 414px;
-      /* background-image: url(images/Circle-design.svg); */
+      
 }
+
+/*------------ sponsor area-------------------- */
 
 .sponsors{
       display: flex;
@@ -52,6 +54,8 @@
       width: 84px;
       height: 26px;
 }
+
+/*--------------------- collection area------------------- */
 .collections{
       display: grid;
       grid-template-columns: repeat(3,1fr);
@@ -88,6 +92,8 @@
       
 }
 
+/*---------------------- features area------------------- */
+
 
 .feature-container{
       display: flex;
@@ -104,3 +110,44 @@
       height: 270px;
       border-radius: 7px;
 }
+
+/*----------------------
+ media area
+ ----------------- */
+
+ @media only screen and (max-width:688px){
+      body{
+            align-items: center;
+            width: 100%;
+      }
+      .header{
+            display: flex;
+            flex-direction: column-reverse;
+      }
+      .start-influencer{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+      }
+      .sponsors{
+            display:grid;
+           grid-template-columns: auto;
+      }
+      .collections{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+      }
+      .collection{
+            display: flex;
+            flex-direction: column-reverse;
+      }
+           
+      .feature-container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+      }
+            
+      
+ }
